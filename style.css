@@ -1,0 +1,57 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+		font: 150% timesnewroman, serif;
+		color: #FFFFFF;
+		
+		background-image: url('linesdarkwebsite.png');
+}
+
+p {
+	margin-top: 0;
+	text-align: center;
+	
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
+h2 {
+	font-weight: italic;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+a:visited {
+	font-weight: bold;
+	text-decoration: none;
+	color: #00EEEE;
+}
+
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #0464FF;
+}
+    .accordion > input[name="collapse"] {
+      position: absolute;
+      left: -100vw; /* Behind the scene */
+    }
+
+    .accordion .content {
+      background: #fff;
+      overflow: hidden;
+      height: 0;
+      transition: 0.5s;
+      box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+    }
