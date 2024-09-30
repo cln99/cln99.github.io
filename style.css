@@ -1,0 +1,201 @@
+html {
+
+}
+
+@font-face {
+  font-family: FreeSans;
+  src: url(assets/FreeSans.otf);
+}
+
+* {
+	font-family: FreeSans, sans-serif;
+
+	font-size: 32px;
+}
+
+
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+a {
+
+	background-color: cyan;
+
+	margin: 5%;
+
+	color: black;
+
+	width: 100%;
+
+}
+
+.index_body {
+	background-image: url("assets/temp/bg.png");
+
+	background-repeat: repeat-y;
+
+	width: 100%;
+	height: 100%;
+}
+
+p {
+
+	background-color: green;
+
+	display: flex;
+
+	margin: 5%;
+
+	color: white;
+
+}
+
+.the_site {
+
+	display: flex;
+
+	flex-direction: column;
+
+	margin: 0px 100px;
+
+	height: 100%;
+
+}
+
+h1 { margin-top: 0; }
+
+.the_paper {
+
+	display: flex;
+
+	justify-content: left;
+	row-gap: 0px;
+
+
+
+}
+
+.waybar {
+
+	/* the bendy one */
+
+	background-image: url("assets/temp/wavey.png");
+
+	height: 140px;
+
+	width: 1500px;
+
+	display: flex;
+
+	align-items: center;
+
+	margin: 10px;
+
+
+
+}
+
+.waybar_button {
+
+	width: 180px;
+
+	height: 200px;
+
+	background-image: url("assets/temp/button4.png");
+
+
+}
+
+.waybar_text {
+
+	width: 100px;
+
+	margin: 100px 30px;
+
+
+	background-color: white;
+
+
+	color: white;
+
+	border-radius: 15px;
+
+}
+
+.dossier {
+
+
+	width: 500px;
+	height: 800px;
+
+	background-image: url("assets/temp/dossier.png");
+
+	flex-shrink: 0;
+
+}
+
+.dossier_text {
+
+	margin: 100px 100px;
+
+}
+
+.bg_background {
+
+	width: 100%;
+	height: 100%;
+
+	background-image: url("assets/temp/new_bg.png");
+
+}
+
+.raine_maine {
+
+	width: 1000px;
+	height: 1080px;
+
+	background-color: black;
+
+	display: flex;
+	justify-content: left;
+
+	flex-direction: column;
+
+	flex-shrink: 0;
+
+	background: transparent url("assets/temp/paperone.png");
+	background-repeat: no-repeat repeat;
+
+}
+
+.raine_maine_text {
+
+	margin: 70px 90px;
+
+}
+
+.writings_body {
+
+	background-image: url("/assets/temp/writings/writings_bg.png");
+
+	width: 1280px;
+	height: 720px;
+
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	outline: 0;
+
+}
+
+
+.text_section {
+
+}
